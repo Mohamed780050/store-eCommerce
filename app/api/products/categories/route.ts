@@ -6,3 +6,4 @@ export const GET = async (req: any) => {
   const categories = await ProductModel.find().distinct('category');
   return Response.json(categories);
 };
+export const dynamic = 'force-dynamic';
