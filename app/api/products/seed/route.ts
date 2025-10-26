@@ -20,3 +20,5 @@ export const GET = async (request: NextRequest) => {
     // products,
   });
 };
+
+export const dynamic = "force-dynamic"
