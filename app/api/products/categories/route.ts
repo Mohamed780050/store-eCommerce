@@ -7,3 +7,4 @@ export const GET = async (req: any) => {
   return Response.json(categories);
 };
 export const dynamic = 'force-dynamic';
+export const fetchCache = 'force-no-store';
